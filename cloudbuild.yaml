@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/composed-garden-406405/your-nginx-image-name', '.']
+
+images:
+- 'gcr.io/composed-garden-406405/your-nginx-image-name'
+
